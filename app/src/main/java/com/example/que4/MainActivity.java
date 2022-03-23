@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
     calendar = Calendar.getInstance();
         java.text.SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd LLL yyyy hh:mm aaa");
          date=simpleDateFormat.format(calendar.getTime()).toString();
+       // tv.setText(date);
         tv.setText(date);
 
         b1.setOnClickListener(new View.OnClickListener() {
